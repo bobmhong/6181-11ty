@@ -4,7 +4,6 @@ import { useEleventy } from "@kickstartds/eleventy-plugin-kickstartds/useElevent
 import { PageWrapper as Page } from "@kickstartds/ds-agency/page-wrapper";
 import { Header } from "@kickstartds/ds-agency/header";
 import { Footer } from "@kickstartds/ds-agency/footer";
-import { Disclaimer } from "./disclaimer/Disclaimer";
 import { HeadlineLevelProvider } from "./headline/HeadlineLevelContext";
 
 export const PageWrapper = ({ floatingHeader = false, children }) => {
@@ -26,15 +25,9 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
           { label: "About", href: "/about-us" },
           { label: "Services", href: "/services" },
           { label: "Showcases", href: "/showcases" },
-          { label: "Blog", href: "/blog" },
-          {
-            label: "Storybook",
-            href: "https://storybook.basic.design-system.agency/",
-          },
         ]}
       />
       <HeadlineLevelProvider>{children}</HeadlineLevelProvider>
-      <Disclaimer />
       <Footer
         logo={data.logo}
         navItems={[
@@ -42,18 +35,6 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
           { label: "About", href: "/about-us" },
           { label: "Services", href: "/services" },
           { label: "Showcases", href: "/showcases" },
-          { label: "Blog", href: "/blog" },
-          {
-            label: "Storybook",
-            href: "https://storybook.basic.design-system.agency/",
-            target: "_blank",
-          },
-          { label: "Page Source", href: gitHubPageUrl, target: "_blank" },
-          //TBD add Link properly
-          {
-            label: "Disclaimer",
-            href: "https://about.design-system.agency/",
-          },
         ]}
       />
     </Page>

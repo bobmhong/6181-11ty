@@ -2,9 +2,9 @@ module.exports = {
   // NOTE: `process.env.URL` is provided by Netlify, and may need
   // adjusted pending your host
   url: process.env.URL || "http://localhost:8080",
-  siteName: "Your Design System Agency - Systemics",
+  siteName: "6181 Zimmer",
   siteDescription:
-    "A demo showcase to demonstrate the eternal power of kickstartDS <3",
-  authorName: "Team of kickstartDS", // optional
-  authorTwitter: "@kickstartds",
+    "10 acre modern country estate in Williamston, MI",
+  authorName: "Bob Hong", // optional
+  authorTwitter: "@bobmhong",
 };
