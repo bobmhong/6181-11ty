@@ -22,9 +22,7 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         floating={floatingHeader}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "About", href: "/about-us" },
-          { label: "Services", href: "/services" },
-          { label: "Showcases", href: "/showcases" },
+          { label: "Gallery", href: "/gallery" },
         ]}
       />
       <HeadlineLevelProvider>{children}</HeadlineLevelProvider>
@@ -32,9 +30,7 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         logo={data.logo}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "About", href: "/about-us" },
-          { label: "Services", href: "/services" },
-          { label: "Showcases", href: "/showcases" },
+          { label: "Gallery", href: "/gallery" },
         ]}
       />
     </Page>

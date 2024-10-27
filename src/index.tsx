@@ -51,9 +51,10 @@ export default (props) => (
         text="Unwind in luxury at this modern estate nestled on 10 private, wooded acres. 
         Premium finishes with natural stone columns, quartz & granite counters. 
         Skylights & clerestory windows wash the vaulted open floor plan in natural light with a large slider opening to the large private deck and pool area.
-        With a large island and plenty of space for cooking and entertaining, you may become everyone's favorite party host. 
-        Enjoy cozy evenings with the modern gas fireplace or catch a movie with enveloping in-ceiling surround sound. The vaulted office/bedroom can be seen from the front view with the trapezoidal window.
-        The main floor master has dual vanities, walk in closets & custom tile shower.
+        With a large island and plenty of space for cooking and entertaining, you may become everyone's favorite party host. Off the kitchen, a quaint sunporch/breakfast area has glass on three sides with slider to the deck.
+        Enjoy cozy evenings with the modern gas fireplace or catch a movie with enveloping in-ceiling surround sound. 
+        The vaulted office/bedroom can be seen from the front view with the trapezoidal window.
+        The master suite has dual vanities, walk in closets & custom tile shower.
         The finished lower level has a family area, office, bedroom, full bath, and ample storage."
       />
       <ImageText
@@ -63,7 +64,9 @@ export default (props) => (
         }}
         layout="beside-right"
         text="A few steps from the main home you'll find a detached accessory dwelling unit crafted with the same attention to detail and style as the main home.
-        Features include a vaulted great room, full kitchen, bedroom, bath, laundry, garage, basement, & separate utilities. This charming, private living space is wonderful for an in-law suite, extended family, home office, studio & more."
+        Features include a vaulted great room, full kitchen, bar, dining area, office nook, bedroom, bath, laundry, garage, basement, & separate utilities. This charming, private living space is wonderful for an in-law suite, extended family, home office, studio & more.
+        A newly built pole barn is ready for toys and outdoor equipment.
+        "
       />
       <ImageText
         image={{
@@ -79,8 +82,12 @@ export default (props) => (
       <Stats
         stat={[
           {
+            number: 2015,
+            title: "Built (Main Home)",
+          },
+          {
             number: 4276,
-            title: "Total sqft",
+            title: "Total sqft on Property",
           },
           {
             number: 3239,
