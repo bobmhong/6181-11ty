@@ -14,11 +14,11 @@ import { Stats } from "@kickstartds/ds-agency/stats";
 
 export const data = {
   title:
-    "6181 Zimmer - Architect designed, 10 acre modern country estate with guest house/accessory dwelling",
+    "6181 Zimmer - Main Home Gallery",
   layout: "base.njk",
   eleventyNavigation: {
-    key: "Home",
-    order: 1,
+    key: "Main Home Gallery",
+    order: 2,
   },
 };
 
@@ -29,8 +29,7 @@ export default (props) => (
       style="symmetricGlow"
       id="startit"
       headline={{
-        text: "6181 Zimmer Rd",
-        sub: "Inspired country living for modern families",
+        text: "Main Home Gallery",
         switchOrder: false,
         large: false,
       }}
@@ -44,15 +43,6 @@ export default (props) => (
         layout="smallTiles"
         lightbox
         images={[
-          {
-            src: "/static/img/gallery/0.1-front-IMG_1597.jpg",
-          },
-          {
-            src: "/static/img/gallery/1.01-6181 Zimmer Dusk.jpg",
-          },
-          {
-            src: "/static/img/gallery/0.2-zimmer-arial-s.jpg",
-          },
           {
             src: "/static/img/gallery/2.1.IMG_1700.jpg",
           },
@@ -183,133 +173,7 @@ export default (props) => (
             src: "/static/img/gallery/8.7.IMG_1805.jpg",
           },
           {
-            src: "/static/img/gallery/8.9.IMG_1785.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1788.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1790.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1791.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1792.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1793.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1794.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.9.IMG_1809.jpg",
-          },
-          {
-            src: "/static/img/gallery/8.10.IMG_1786.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.ad1-IMG_1728.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0012.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0013.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0014.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0015.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0016.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0018.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0019.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0021.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0022.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0023.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0024.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0026.jpg",
-          },
-          {
-            src: "/static/img/gallery/9.DJI_0028.jpg",
-          },
-          {
-            src: "/static/img/gallery/10.1-MAIN-1ST.jpg",
-          },
-          {
             src: "/static/img/gallery/10.2-MAIN-LOWERpdf.jpg",
-          },
-          {
-            src: "/static/img/gallery/10.3..ADU.jpg",
-          },
-          {
-            src: "/static/img/gallery/ADU1026.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1766.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1769.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1772.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1775.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1778.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1781.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.1.IMG_1789.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.2.IMG_1784.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.3.IMG_1751.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.3.IMG_1754.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.3.IMG_1760.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.ad11-IMG_0606.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.ad12-IMG_0607.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.ad13-IMG_0608.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.IMG_1807.jpg",
-          },
-          {
-            src: "/static/img/gallery/11.IMG_1808.jpg",
           },
         ]}
       />

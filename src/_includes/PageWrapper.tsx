@@ -22,7 +22,9 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         floating={floatingHeader}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "Gallery", href: "/gallery" },
+          { label: "Main Home Gallery", href: "/gallery-main" },
+          { label: "ADU Gallery", href: "/gallery-adu" },
+          { label: "Exterior Gallery", href: "/gallery-ext" },
         ]}
       />
       <HeadlineLevelProvider>{children}</HeadlineLevelProvider>
@@ -30,7 +32,9 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         logo={data.logo}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "Gallery", href: "/gallery" },
+          { label: "Main Home Gallery", href: "/gallery-main" },
+          { label: "ADU Gallery", href: "/gallery-adu" },
+          { label: "Exterior Gallery", href: "/gallery-ext" },
         ]}
       />
     </Page>

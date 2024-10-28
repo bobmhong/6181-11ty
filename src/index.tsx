@@ -11,6 +11,7 @@ import { Features } from "@kickstartds/ds-agency/components/features/index.js";
 import { ImageText } from "@kickstartds/ds-agency/image-text";
 import { Gallery } from "@kickstartds/ds-agency/gallery";
 import { Stats } from "@kickstartds/ds-agency/stats";
+import { BlogTeaser } from "@kickstartds/ds-agency/blog-teaser";
 
 export const data = {
   title:
@@ -41,10 +42,9 @@ export default (props) => (
       }}
     >
       <Text align="left" layout="multiColumn" text="###$939,000" />
-
       <ImageText
         image={{
-          alt: "Front home view at dusk",
+          alt: "Front home view",
           src: "/static/img/gallery/0.1-front-IMG_1597.jpg",
         }}
         layout="beside-left"
@@ -75,47 +75,22 @@ export default (props) => (
         }}
         layout="beside-left"
         text="Enjoy sunshine and entertaining on the large deck, then take a dip in the heated pool.
-        Walks in the woods, country bike rides, farm stands and more are just outside your door.
+        Walks in the woods, country bike rides, farmers markets, roadside farm stands and more are just outside your door.
+        Extensive dining, shopping and services await with easy access to Williamston, Okemos, East Lansing, & MSU. 
         "
       />
+    </Section>
 
-      <Stats
-        stat={[
-          {
-            number: 2015,
-            title: "Built (Main Home)",
-          },
-          {
-            number: 4276,
-            title: "Total sqft on Property",
-          },
-          {
-            number: 3239,
-            title: "Main Home sqft",
-          },
-          {
-            number: 1037,
-            title: "ADU sqft",
-          },
-        ]}
-      />
-      <Stats
-        stat={[
-          {
-            number: 3,
-            title: "Main BR",
-          },
-          {
-            number: 1,
-            title: "ADU BR",
-          },
-          {
-            number: 10,
-            title: "Acres",
-          },
-        ]}
-      />
-
+    <Section
+      spotlight
+      style="symmetricGlow"
+      id="startit"
+      width="wide"
+      content={{
+        mode: "list",
+        gutter: "large",
+      }}
+    >
       <Gallery
         layout="smallTiles"
         lightbox
@@ -162,25 +137,91 @@ export default (props) => (
           },
         ]}
       />
+    </Section>
 
-      <Features
-        ctas={{
-          style: "intext",
-          toggle: false,
+    <Section width="full" spaceAfter="none" spaceBefore="none">
+      <Image src="/static/img/bg/bg_divder-blue.svg" />
+    </Section>
+
+    <Section
+      spaceBefore="small"
+      width="wide"
+      headline={{
+        text: "More Pics",
+        align: "center",
+      }}
+    >
+      <BlogTeaser
+        headline="Main Home"
+        image="/static/img/gallery/0.1-front-IMG_1597.jpg"
+        link={{
+          label: "Main Home Gallery",
+          url: "/gallery-main",
         }}
-        feature={[
+        teaserText=""
+      />
+      <BlogTeaser
+        headline="ADU"
+        image="/static/img/gallery/ADU1026.jpg"
+        link={{
+          label: "Guest House/Office",
+          url: "/gallery-adu",
+        }}
+        teaserText=""
+      />
+      <BlogTeaser
+        headline="Exterior"
+        image="/static/img/gallery/0.2-zimmer-arial-s.jpg"
+        link={{
+          label: "Exterior",
+          url: "/gallery-ext",
+        }}
+        teaserText=""
+      />
+    </Section>
+
+    <Section
+      width="wide"
+      headline={{
+        text: "At a Glance",
+        textAlign: "center",
+      }}
+    >
+      <Stats
+        stat={[
           {
-            cta: {
-              label: "Gallery",
-              target: "gallery",
-            },
-            icon: "instagram",
-            text: "Explore all photos...",
-            title: "Gallery",
+            number: 2015,
+            title: "Built (Main Home)",
+          },
+          {
+            number: 4276,
+            title: "Total sqft on Property",
+          },
+          {
+            number: 3239,
+            title: "Main Home sqft",
+          },
+          {
+            number: 1037,
+            title: "ADU sqft",
           },
         ]}
-        layout="smallTiles"
-        style="stack"
+      />
+      <Stats
+        stat={[
+          {
+            number: 3,
+            title: "Main BR",
+          },
+          {
+            number: 1,
+            title: "ADU BR",
+          },
+          {
+            number: 10,
+            title: "Acres",
+          },
+        ]}
       />
     </Section>
 
