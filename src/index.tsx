@@ -181,18 +181,40 @@ export default (props) => (
     </Section>
 
     <Section
-      width="wide"
       headline={{
         text: "At a Glance",
         textAlign: "center",
+      }}
+      style="symmetricGlow"
+      id="startit"
+      width="wide"
+      content={{
+        mode: "list",
+        gutter: "large",
       }}
     >
       <Stats
         stat={[
           {
-            number: 2015,
-            title: "Built (Main Home)",
+            number: 10,
+            title: "Lot Size Acres",
           },
+          {
+            number: 2015,
+            title: "Main Home Built",
+          },
+          {
+            number: 2019,
+            title: "ADU Built",
+          },
+          {
+            number: 2023,
+            title: "Pole Barn Built",
+          },
+        ]}
+      />
+      <Stats
+        stat={[
           {
             number: 4276,
             title: "Total sqft on Property",
@@ -217,9 +239,38 @@ export default (props) => (
             number: 1,
             title: "ADU BR",
           },
+        ]}
+      />
+    </Section>
+
+    <Section
+      spotlight
+      style="symmetricGlow"
+      id="faq"
+      width="wide"
+      content={{
+        mode: "list",
+        gutter: "large",
+      }}
+    >
+      <Faq
+        questions={[
           {
-            number: 10,
-            title: "Acres",
+            answer: "",
+            question: "Can you tell me about the home design and construction?",
+          },
+          {
+            answer: "",
+            question: "How's the internet service?",
+          },
+          {
+            answer: "",
+            question:
+              "What type of heating, cooling, plumbing, and utilities are used?",
+          },
+          {
+            answer: "",
+            question: "What kind of wildlife live nearby?",
           },
         ]}
       />
@@ -229,7 +280,7 @@ export default (props) => (
       <Cta
         textAlign="center"
         headline="Ready to take the next step?"
-        text="Reach out to book a private showing."
+        text="Reach out with questions or to book a private showing."
         highlightText
         buttons={[
           {

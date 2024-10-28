@@ -167,9 +167,6 @@ export default (props) => (
             src: "/static/img/gallery/8.1.p4-IMG_1334.jpg",
           },
           {
-            src: "/static/img/gallery/8.1.p4-IMG_1334.jpg",
-          },
-          {
             src: "/static/img/gallery/8.7.IMG_1805.jpg",
           },
           {
