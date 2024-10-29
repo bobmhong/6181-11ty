@@ -145,6 +145,15 @@ export default (props) => (
             alt: "ADU dinint",
             src: "/static/img/gallery/11.1.IMG_1778.jpg",
           },
+          {
+            src: "/static/img/gallery/10.1-MAIN-1ST.jpg"
+          },
+          {
+            src: "/static/img/gallery/10.2-MAIN-LOWERpdf.jpg",
+          },
+          {
+            src: "/static/img/gallery/ADU-floorplan.jpg",
+          },
         ]}
       />
     </Section>

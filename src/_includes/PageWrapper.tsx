@@ -23,7 +23,7 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         floating={floatingHeader}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "Main Home Gallery", href: "/gallery-main" },
+          { label: "Main Gallery", href: "/gallery-main" },
           { label: "ADU Gallery", href: "/gallery-adu" },
           { label: "Exterior Gallery", href: "/gallery-ext" },
         ]}
@@ -34,7 +34,7 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         logo={data.logo}
         navItems={[
           { label: "Home", href: "/index" },
-          { label: "Main Home Gallery", href: "/gallery-main" },
+          { label: "Main Gallery", href: "/gallery-main" },
           { label: "ADU Gallery", href: "/gallery-adu" },
           { label: "Exterior Gallery", href: "/gallery-ext" },
         ]}

@@ -82,7 +82,7 @@ const ContactForm: React.FC = () => {
         </div>
       </form>
 
-      <Text text="*For the quickest response, call Melissa at (517) 214-4747 for more info or to set up a private showing.*" />
+      <Text text="*For the fastest response, call Melissa at (517) 214-4747 with questions or to schedule a private showing.*" />
     </Section>
   );
 };

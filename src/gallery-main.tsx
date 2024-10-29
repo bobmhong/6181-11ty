@@ -170,6 +170,9 @@ export default (props) => (
             src: "/static/img/gallery/8.7.IMG_1805.jpg",
           },
           {
+            src: "/static/img/gallery/10.1-MAIN-1ST.jpg"
+          },
+          {
             src: "/static/img/gallery/10.2-MAIN-LOWERpdf.jpg",
           },
         ]}

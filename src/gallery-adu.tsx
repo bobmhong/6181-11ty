@@ -29,8 +29,8 @@ export default (props) => (
       style="symmetricGlow"
       id="startit"
       headline={{
-        text: "6181 Zimmer Rd",
-        sub: "Inspired country living for modern families",
+        text: "ADU Gallery",
+        sub: "Welcome family, guests, work remotely, or create in your flexible space",
         switchOrder: false,
         large: false,
       }}
