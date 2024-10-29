@@ -266,21 +266,21 @@ export default (props) => (
       <Faq
         questions={[
           {
-            answer: "The team of [Stevens Associates Builders] https://stevensassociatesbuilders.com and Melissa Hong Design have over 20 years experience designing and building custom homes throughout Michigan. Attention to detail and fine craftsmanship are hallmarks of their work.",
+            answer: "The team of **Stevens Associates Builders** https://stevensassociatesbuilders.com and **Melissa Hong Design** have over 20 years experience designing and building custom homes throughout Michigan. Attention to detail and fine craftsmanship are hallmarks of their work.",
             question: "Can you tell me about the home design and construction?",
           },
           {
-            answer: "",
-            question: "How's the internet service?",
+            answer: "Gigabit Broadband service through WOW is available for meeting any remote work, school, video streaming, or gaming needs. The home uses Cat-6 network infrastructure to ensure Wifi access points and key locations have fast and stable connections.",
+            question: "How's the internet?",
           },
           {
-            answer: "",
+            answer: "Main home: Electric air-sourced heat pump for heating and cooling with propane as a backup heat source during extreme conditions, Hot water heater - propane,  Range - Electric, Dryer - propane, Fireplace - propane ADU: HVAC - electric/propane, Hot water heater - propane,  Range - Gas, Dryer - electric",
             question:
               "What type of heating, cooling, plumbing, and utilities are used?",
           },
           {
-            answer: "",
-            question: "What kind of wildlife live nearby?",
+            answer: "Expect to see daily visits from our forest friends. Families of deer and rabbits, chipmunks, squirrels, turkeys, woodpeckers, songbirds, and more regularly make their rounds and will surely bring a smile to yoru face.",
+            question: "What wildlife might I see?",
           },
         ]}
       />
