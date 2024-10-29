@@ -279,7 +279,7 @@ export default (props) => (
               "What type of heating, cooling, plumbing, and utilities are used?",
           },
           {
-            answer: "Expect to see daily visits from our forest friends. Families of deer and rabbits, chipmunks, squirrels, turkeys, woodpeckers, songbirds, and more regularly make their rounds and will surely bring a smile to yoru face.",
+            answer: "Expect to see daily visits from our forest friends. Families of deer and rabbits, chipmunks, squirrels, turkeys, woodpeckers, songbirds, and more regularly make their rounds and will surely bring a smile to your face.",
             question: "What wildlife might I see?",
           },
         ]}
