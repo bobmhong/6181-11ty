@@ -73,7 +73,8 @@ export default (props) => (
         }}
         layout="beside-right"
         text="A few steps from the main home you'll find a detached accessory dwelling unit crafted with the same attention to detail and style as the main home.
-        Features include a vaulted great room, full kitchen, bar, dining area, office nook, bedroom, bath, laundry, garage, basement, & separate utilities. This charming, private living space is wonderful for an in-law suite, extended family, home office, studio & more.
+        Features include a vaulted great room, full kitchen, bar, dining area, office nook, bedroom, bath, laundry, garage, basement, & separate utilities. 
+        This charming, private living space is wonderful for an inlaw suite, extended family, home office, studio & more.
         A newly built pole barn is ready for toys and outdoor equipment.
         "
       />
