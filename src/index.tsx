@@ -1,3 +1,12 @@
+import React, { useState, ChangeEvent, FormEvent } from 'react';
+
+interface FormData {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+}
+
 import { Section } from "@kickstartds/ds-agency/section";
 import { Faq } from "@kickstartds/ds-agency/faq";
 import { TeaserCard } from "@kickstartds/ds-agency/teaser-card";
@@ -7,11 +16,13 @@ import { Logos } from "@kickstartds/ds-agency/logos";
 import { Cta } from "@kickstartds/ds-agency/cta";
 import { Testimonials } from "@kickstartds/ds-agency/testimonials";
 import { PageWrapper } from "./_includes/PageWrapper";
+import ContactForm from "./_includes/ContactForm";
 import { Features } from "@kickstartds/ds-agency/components/features/index.js";
 import { ImageText } from "@kickstartds/ds-agency/image-text";
 import { Gallery } from "@kickstartds/ds-agency/gallery";
 import { Stats } from "@kickstartds/ds-agency/stats";
 import { BlogTeaser } from "@kickstartds/ds-agency/blog-teaser";
+import { BlogAside } from "@kickstartds/ds-agency/blog-aside";
 
 export const data = {
   title:
@@ -41,7 +52,7 @@ export default (props) => (
         gutter: "large",
       }}
     >
-      <Text align="left" layout="multiColumn" text="###$939,000" />
+      <Text align="left" layout="multiColumn" text="###$929,000" />
       <ImageText
         image={{
           alt: "Front home view",
@@ -147,7 +158,7 @@ export default (props) => (
       spaceBefore="small"
       width="wide"
       headline={{
-        text: "More Pics",
+        text: "Click for More Pics...",
         align: "center",
       }}
     >
@@ -279,17 +290,15 @@ export default (props) => (
     <Section backgroundColor="accent">
       <Cta
         textAlign="center"
-        headline="Ready to take the next step?"
-        text="Reach out with questions or to book a private showing."
-        highlightText
-        buttons={[
-          {
-            label: "Contact us",
-            target: "mailto:mhong222@gmail.com",
-            icon: "person",
-          },
-        ]}
+        headline="Ready to learn more?"
+        sub="Please tell us more about yourself..."
+        
       />
-    </Section>
+      <ContactForm/>
+      <Text
+      text="*For the quickest response, call Melissa at (517) 214-4747 for more info or to set up a private showing.*"
+      />
+      </Section>
+    
   </PageWrapper>
 );
