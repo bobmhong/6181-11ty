@@ -115,21 +115,5 @@ export default (props) => (
         ]}
       />
     </Section>
-
-    <Section backgroundColor="accent">
-      <Cta
-        textAlign="center"
-        headline="Ready to take the next step?"
-        text="Reach out to book a private showing."
-        highlightText
-        buttons={[
-          {
-            label: "Contact us",
-            target: "mailto:mhong222@gmail.com",
-            icon: "person",
-          },
-        ]}
-      />
-    </Section>
   </PageWrapper>
 );

@@ -2,6 +2,9 @@ import React, { useState, ChangeEvent, FormEvent } from "react";
 import { TextField } from "@kickstartds/form/lib/text-field";
 import { TextArea } from "@kickstartds/form/lib/text-area";
 import { Button } from "@kickstartds/base/lib/button";
+import { Section } from "@kickstartds/ds-agency/section";
+import { Text } from "@kickstartds/ds-agency/text";
+import { Cta } from "@kickstartds/ds-agency/cta";
 
 interface FormData {
   name: string;
@@ -35,42 +38,52 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} method="POST" data-netlify="true">
-      <TextField
-        inputMode="text"
-        label="Name"
-        name="name"
-        type="tel"
-        value=""
-        icon="person"
+    <Section backgroundColor="accent">
+      <Cta
+        textAlign="center"
+        headline="Ready to learn more?"
+        sub="Please tell us more about yourself..."
       />
-      <TextField
-        inputMode="text"
-        label="Email"
-        name="email"
-        type="email"
-        value=""
-        icon="email"
-      />
-      <TextField
-        inputMode="text"
-        label="Phone"
-        name="phone"
-        type="tel"
-        value=""
-        icon="phone"
-      />
-      <TextArea
-        inputMode="text"
-        label="Message"
-        name="message"
-        value=""
-        icon="info"
-      />
-      <div align="center">
-        <Button label="Submit" size="medium" type="submit" variant="solid"/>
-      </div>
-    </form>
+
+      <form onSubmit={handleSubmit} method="POST" data-netlify="true">
+        <TextField
+          inputMode="text"
+          label="Name"
+          name="name"
+          type="tel"
+          value=""
+          icon="person"
+        />
+        <TextField
+          inputMode="text"
+          label="Email"
+          name="email"
+          type="email"
+          value=""
+          icon="email"
+        />
+        <TextField
+          inputMode="text"
+          label="Phone"
+          name="phone"
+          type="tel"
+          value=""
+          icon="phone"
+        />
+        <TextArea
+          inputMode="text"
+          label="Message"
+          name="message"
+          value=""
+          icon="info"
+        />
+        <div align="center">
+          <Button label="Submit" size="medium" type="submit" variant="solid" />
+        </div>
+      </form>
+
+      <Text text="*For the quickest response, call Melissa at (517) 214-4747 for more info or to set up a private showing.*" />
+    </Section>
   );
 };
 

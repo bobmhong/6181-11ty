@@ -5,6 +5,7 @@ import { PageWrapper as Page } from "@kickstartds/ds-agency/page-wrapper";
 import { Header } from "@kickstartds/ds-agency/header";
 import { Footer } from "@kickstartds/ds-agency/footer";
 import { HeadlineLevelProvider } from "./headline/HeadlineLevelContext";
+import ContactForm from "./ContactForm";
 
 export const PageWrapper = ({ floatingHeader = false, children }) => {
   const data = useEleventy();
@@ -28,6 +29,7 @@ export const PageWrapper = ({ floatingHeader = false, children }) => {
         ]}
       />
       <HeadlineLevelProvider>{children}</HeadlineLevelProvider>
+      <ContactForm/>
       <Footer
         logo={data.logo}
         navItems={[

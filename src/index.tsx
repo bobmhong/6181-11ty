@@ -14,9 +14,7 @@ import { Text } from "@kickstartds/ds-agency/text";
 import { Image } from "@kickstartds/ds-agency/image";
 import { Logos } from "@kickstartds/ds-agency/logos";
 import { Cta } from "@kickstartds/ds-agency/cta";
-import { Testimonials } from "@kickstartds/ds-agency/testimonials";
 import { PageWrapper } from "./_includes/PageWrapper";
-import ContactForm from "./_includes/ContactForm";
 import { Features } from "@kickstartds/ds-agency/components/features/index.js";
 import { ImageText } from "@kickstartds/ds-agency/image-text";
 import { Gallery } from "@kickstartds/ds-agency/gallery";
@@ -64,7 +62,7 @@ export default (props) => (
         Skylights & clerestory windows wash the vaulted open floor plan in natural light with a large slider opening to the large private deck and pool area.
         With a large island and plenty of space for cooking and entertaining, you may become everyone's favorite party host. Off the kitchen, a quaint sunporch/breakfast area has glass on three sides with slider to the deck.
         Enjoy cozy evenings with the modern gas fireplace or catch a movie with enveloping in-ceiling surround sound. 
-        The vaulted office/bedroom can be seen from the front view with the trapezoidal window.
+        The vaulted office/bedroom has great morning light and a wonderful view of the peaceful surroundings.
         The master suite has dual vanities, walk in closets & custom tile shower.
         The finished lower level has a family area, office, bedroom, full bath, and ample storage."
       />
@@ -267,7 +265,7 @@ export default (props) => (
       <Faq
         questions={[
           {
-            answer: "",
+            answer: "The team of [Stevens Associates Builders] https://stevensassociatesbuilders.com and Melissa Hong Design have over 20 years experience designing and building custom homes throughout Michigan. Attention to detail and fine craftsmanship are hallmarks of their work.",
             question: "Can you tell me about the home design and construction?",
           },
           {
@@ -286,19 +284,5 @@ export default (props) => (
         ]}
       />
     </Section>
-
-    <Section backgroundColor="accent">
-      <Cta
-        textAlign="center"
-        headline="Ready to learn more?"
-        sub="Please tell us more about yourself..."
-        
-      />
-      <ContactForm/>
-      <Text
-      text="*For the quickest response, call Melissa at (517) 214-4747 for more info or to set up a private showing.*"
-      />
-      </Section>
-    
   </PageWrapper>
 );
